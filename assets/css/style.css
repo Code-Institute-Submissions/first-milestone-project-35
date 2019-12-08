@@ -1,3 +1,129 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
+/* ---------------------------------- Color */
+
+body {
+    background-color: #E7C7C8;
+    margin: 0;
+}
+
+/* ---------------------------------- General */
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* ---------------------------------- Heading */
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.heading {
+    background-color: #fafafa;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.heading-text {
+    height: 120px;
+    font-family: 'Cormorant', sans;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    padding-left: 12px;
+    color: #3C3C3C;
+}
+
+@media (min-width: 992px) {
+    .heading {
+        text-align: center;
+    }
+    .heading-text {
+        position: relative;
+        padding: 25px 0px 0px;
+        margin: 0;
+        height: 120px;
+        text-align: center;
+    }
+}
+
+
+/* ---------------------------------- Navbar */
+
+.navbar {
+    justify-content: unset;
+    padding: 0px;
+    border-top: 1px #E7C7C8 solid;
+}
+
+.menucontainer {
+    margin: 120px auto 0px;
+    width: 100%;
+    background-color: #fafafa;
+    text-align: center;
+    float: none;
+}
+
+.navbar-item {
+    color: #3c3c3c;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    border: none;
+}
+
+.list-group {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item a {
+    width: 20%;
+    height: 30px;
+    padding: 0;
+}
+
+/* ---------------------------------- Section */
+
+
+
+/* ---------------------------------- Footer */
+
+footer {
+    margin: 0;
+}
+
+.footer-container {
+    width: 100%;
+
+}
+
+.footer-item {
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+}
+
+/* ---------------------------------- Hover */
+
+a:hover {
+    text-decoration: none;
+    color: #3c3c3c;
+}
 
