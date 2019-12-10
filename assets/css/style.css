@@ -23,6 +23,16 @@ ul {
     padding: 0;
 }
 
+.col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 /* ---------------------------------- Heading */
 
 header {
@@ -67,10 +77,9 @@ header {
 
 /* ---------------------------------- Navbar */
 
-.navbar {
+.menu-wide {
     justify-content: unset;
-    padding: 0px;
-    border-top: 1px #E7C7C8 solid;
+    padding: 0;
 }
 
 .menucontainer {
@@ -79,11 +88,13 @@ header {
     background-color: #fafafa;
     text-align: center;
     float: none;
+    border-top: 1px #E7C7C8 solid;
 }
 
 .navbar-item {
     color: #3c3c3c;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     background-color: #fafafa;
     text-align: center;
     border: none;
@@ -98,6 +109,64 @@ header {
     width: 20%;
     height: 30px;
     padding: 0;
+
+}
+
+.list-group-item .navbar-item {
+padding: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    top: 50%;
+    height: 120px;
+    border: none;
+    float: right;
+    padding-right: 40px;
+}
+
+.navbar {
+    position: fixed;
+    padding: 0;
+    height: 120px;
+    right: 0px;
+    background-color: transparent;
+}
+
+.navbar-dropdown {
+    margin: 0;
+    height: 120px;
+}
+
+.navbar-nav {
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgb(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    width: 100vw;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+}
+
+.navbar-collapse {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight: 500;
+    color: #3c3c3c;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #b3b3b3;
 }
 
 /* ---------------------------------- Section */
