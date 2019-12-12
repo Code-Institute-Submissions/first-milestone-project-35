@@ -265,6 +265,48 @@ section {
     width: 100%;
 }
 
+.shop-content-info {
+    text-align: center;
+}
+
+.shop-content-info h5 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop-text {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.shop-button {
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+    font-weight: 500;
+    margin-top: 6px;
+    font-size: 0.8em;
+    background-color: #EB5757;
+    z-index: 1;
+}
+
+.shop-button:hover {
+    background-color: #F58181;
+}
+
+.shop-button-sold {
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    background-color: #D5D5D5;
+    z-index: 1;
+    border: solid #D5D5D5 1px;
+}
+
 /* ---------------------------------- Footer */
 
 footer {
