@@ -207,7 +207,7 @@ section {
 .section-container {
     text-align: center;
     z-index: -1;
-    margin: 12px 0px 12px 0px;
+    margin: 12px 15px 12px 15px;
 
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 5px 5px 0px rgb(0,0,0,0.3);
@@ -216,7 +216,7 @@ section {
 
 .section-content {
     background-color: #fafafa;
-    width: 95%;
+    width: 100%;
     display: inline-block;
     position: relative;
     margin: 0;
@@ -246,6 +246,23 @@ section {
     .section-header h3 {
         font-size: 18px;
     }
+}
+
+.welcome-image img {
+    width: 100%;
+}
+
+@media (max-width: 575px) {
+    .welcome-image img {
+        height: 60vw;
+        width: 100%;
+        object-fit: cover;
+        object-position: -20% 0;
+    }
+}
+
+.gallery-image img {
+    width: 100%;
 }
 
 /* ---------------------------------- Footer */
@@ -281,19 +298,6 @@ footer {
     margin: 3px 0px 6px 3px;
     padding-top: 3px;
     display: inline-block;
-}
-
-.welcome-image img {
-    width: 100%;
-}
-
-@media (max-width: 575px) {
-    .welcome-image img {
-        height: 60vw;
-        width: 100%;
-        object-fit: cover;
-        object-position: -20% 0;
-    }
 }
 
 /* ---------------------------------- Hover */
