@@ -248,6 +248,8 @@ section {
     }
 }
 
+/* ---------------------------------- Section - Index */
+
 .welcome-image img {
     width: 100%;
 }
@@ -261,9 +263,13 @@ section {
     }
 }
 
+/* ---------------------------------- Section - Gallery */
+
 .gallery-image img {
     width: 100%;
 }
+
+/* ---------------------------------- Section - Shop */
 
 .shop-content-info {
     text-align: center;
@@ -307,6 +313,8 @@ section {
     border: solid #D5D5D5 1px;
 }
 
+/* ---------------------------------- Section - Blog */
+
 .blog-container {
     background-color: #fafafa;
 }
@@ -339,6 +347,31 @@ section {
 .posted-tag {
     font-size: 0.7em;
     margin-bottom: 0;
+}
+
+/* ---------------------------------- Section - Contact */
+
+.contact-container {
+    background-color: #fafafa;
+}
+
+form > .form-group {
+    margin-bottom: 0;
+    padding: 3px;
+}
+
+.contact-label {
+    margin-bottom: 0;
+}
+
+.contact-container h5,
+.contact-text h5 {
+    padding-left: 6px;
+    font-weight: 400;
+}
+
+.contact-text > p {
+    margin: 2px 3px;
 }
 
 /* ---------------------------------- Footer */
