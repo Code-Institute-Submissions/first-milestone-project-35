@@ -307,6 +307,40 @@ section {
     border: solid #D5D5D5 1px;
 }
 
+.blog-container {
+    background-color: #fafafa;
+}
+
+.blog-image img {
+    height: 60vw;
+    width: 100%;
+    object-fit: cover;
+    object-position: -20% 0;
+}
+
+@media (min-width: 576px) {
+    .blog-image img {
+        height: 50vw;
+        width: 100%;
+        object-fit: cover;
+        object-position: -20% 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .blog-image img {
+        height: 40vw;
+        width: 100%;
+        object-fit: cover;
+        object-position: -20% 0;
+    }
+}
+
+.posted-tag {
+    font-size: 0.7em;
+    margin-bottom: 0;
+}
+
 /* ---------------------------------- Footer */
 
 footer {
