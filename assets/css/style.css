@@ -5,6 +5,14 @@
 body {
     background-color: #E7C7C8;
     margin: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 75px;
 }
 
 .heading {
@@ -192,6 +200,7 @@ padding: 15px;
 
 section {
     margin-top: 120px;
+    height: 100%;
 }
 
 .section-header {
@@ -379,7 +388,8 @@ form > .form-group {
 footer {
     margin: 20px 0px 0px 0px;
     bottom: 0;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
 .page-footer {
@@ -407,7 +417,7 @@ footer {
     margin: 3px 0px 6px 3px;
     padding-top: 3px;
     display: inline-block;
-}
+} 
 
 /* ---------------------------------- Hover */
 

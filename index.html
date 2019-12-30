@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div class="page-container">
 	<header>
 		<div class="row">
 			<a href="index.html">
@@ -22,21 +23,25 @@
             </a>
 		</div>
 
+<!--  --------------------------------  Laying Navbar Large Screen  -->
+
 		<nav>
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12 d-none d-md-block no-gutter menucontainer">
 						<ul class="list-group list-group-horizontal justify-content-center menu-wide">
 							<li class="list-group-item col-2 navbar-item active"><a href="index.html"><span>• Home •</span></a></li>
-							<li class="list-group-item col-2 navbar-item"><a href="gallery.html"><span>• Gallery •</span></a></li>
-							<li class="list-group-item col-2 navbar-item"><a href="shop.html"><span>• Shop •</span></a></li>
-							<li class="list-group-item col-2 navbar-item"><a href="blog.html"><span>• Blog •</span></a></li>
-							<li class="list-group-item col-2 navbar-item"><a href="contact.html"><span>• Contact •</span></a></li>
+							<li class="list-group-item col-2 navbar-item"><a href="pages/gallery.html"><span>• Gallery •</span></a></li>
+							<li class="list-group-item col-2 navbar-item"><a href="pages/shop.html"><span>• Shop •</span></a></li>
+							<li class="list-group-item col-2 navbar-item"><a href="pages/blog.html"><span>• Blog •</span></a></li>
+							<li class="list-group-item col-2 navbar-item"><a href="pages/contact.html"><span>• Contact •</span></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</nav>
+
+<!--  --------------------------------  Dropdown Navbar Small-Medium Screen  -->
 
 		<div class="container-fullwidth">
 			<nav class="navbar navbar-expand-lg navbar-light d-md-none">
@@ -53,16 +58,16 @@
 									<a class="nav-link" href="index.html">• Home •</a>
 								</li>
 								<li class="nav-item col-12">
-									<a class="nav-link" href="gallery.html">• Gallery •</a>
+									<a class="nav-link" href="pages/gallery.html">• Gallery •</a>
 								</li>
 								<li class="nav-item col-12">
-									<a class="nav-link" href="shop.html">• Shop •</a>
+									<a class="nav-link" href="pages/shop.html">• Shop •</a>
 								</li>
 								<li class="nav-item col-12">
-									<a class="nav-link" href="blog.html">• Blog •</a>
+									<a class="nav-link" href="pages/blog.html">• Blog •</a>
 								</li>
 								<li class="nav-item col-12">
-									<a class="nav-link" href="contact.html">• Contact •</a>
+									<a class="nav-link" href="pages/contact.html">• Contact •</a>
 								</li>
 							</ul>
 						</div>
@@ -74,6 +79,8 @@
 
 	</header>
 
+<!--  --------------------------------  Section Header  -->
+
 	<section>
         <div class="container">
             <div class="row  justify-content-center">
@@ -81,6 +88,9 @@
                     <h3>Welcome!</h3>
                 </div>
             </div>
+
+<!--  --------------------------------  Section Content  -->
+
             <div class="row no-gutters justify-content-center">
                 <div class="col-12 col-lg-10 section-container ">
                     <div class="row">
@@ -104,16 +114,22 @@
 
     </section>
 
+<!--  --------------------------------  Footer  -->
+
 	<footer>
 		<div class="page-footer">
 			<span class="footer-item"><a href="index.html">Home</a></span>
-			<span class="footer-item"><a href="contact.html">Contact</a></span>
+			<span class="footer-item"><a href="pages/contact.html">Contact</a></span>
 			<span class="footer-item">Social Media 
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook social-icon"></i></a>
             <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram social-icon"></i></a>
         </span>
 		</div>
 	</footer>
+    </div>
+
+<!--  --------------------------------  Bootstrap for JS Dropdown  -->
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

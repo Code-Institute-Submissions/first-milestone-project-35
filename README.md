@@ -18,3 +18,4 @@ stackoverflow
 cssmatic
 
 https://alligator.io/css/cropping-images-object-fit/
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
