@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
 
 /* ---------------------------------- Color */
 
@@ -22,6 +22,7 @@ body {
 .footer-container {
     background-color: #fafafa;
 }
+
 
 /* ---------------------------------- General */
 
@@ -57,6 +58,13 @@ h5 {
     margin: 0;
     padding: 0;
 }
+
+th,
+td {
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+}
+
 
 /* ---------------------------------- Heading */
 
@@ -252,8 +260,21 @@ section {
         margin-top: 168px;
     }
 
+    .section-contact {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 65vh;
+    }
+
     .section-header h3 {
         font-size: 18px;
+    }
+}
+
+@media (min-height: 880px) {
+    .section-contact {
+        transform: translateY(5%);
     }
 }
 
@@ -271,6 +292,19 @@ section {
         object-position: -20% 0;
     }
 }
+
+.greeting-text {
+    color: #878787;
+    font-family: 'Pacifico', cursive;
+}
+
+.welcome-greeting {
+    position: relative;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* ---------------------------------- Section - Gallery */
 
@@ -329,27 +363,27 @@ section {
 }
 
 .blog-image img {
-    height: 60vw;
+    height: 30vh;
     width: 100%;
     object-fit: cover;
-    object-position: -20% 0;
+    object-position: 0% 0%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 577px) {
     .blog-image img {
-        height: 50vw;
+        height: 40vh;
         width: 100%;
         object-fit: cover;
-        object-position: -20% 0;
+        object-position: 0% 0%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .blog-image img {
-        height: 40vw;
+        height: 100%;
         width: 100%;
         object-fit: cover;
-        object-position: -20% 0;
+        object-position: 0% 0%;
     }
 }
 
@@ -360,8 +394,11 @@ section {
 
 /* ---------------------------------- Section - Contact */
 
+
+
 .contact-container {
     background-color: #fafafa;
+    min-height: 40vh;
 }
 
 form > .form-group {
