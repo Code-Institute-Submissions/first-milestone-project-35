@@ -95,8 +95,8 @@
             <div class="row no-gutters justify-content-center">
                 <div class="col-12 col-lg-10 section-container ">
                     <div class="row">
-                        <div class="section-content col-12 col-md-6">
-                            <div class="contact-container">
+                        <div class="section-content section-content-contact col-12 col-md-6">
+                            <div class="contact-container col-12">
                                 <h5>Send me a message</h5>
                                 <form>
                                     <div class="form-group">
@@ -116,13 +116,18 @@
                                         <textarea class="form-control" id="FormControlTextarea" rows="4"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn btn-info" type="submit" >Send</button>
+                                        <button class="btn btn-info" type="submit" onclick="myFunction()">Send</button>
+                                        <script>
+                                            function myFunction() {
+                                                alert("Message has been sent!");
+                                            }
+                                        </script>
                                     </div>
                                 </form>
                         
                             </div>
                         </div>
-                    <div class="section-content col-12 col-md-6">
+                    <div class="section-content section-content-contact col-12 col-md-6">
                         <div class="contact-text">
                             <h5>Ulla Ceder</h5>
                             <p>Adress:</p>

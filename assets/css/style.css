@@ -7,6 +7,7 @@ body {
     margin: 0;
     width: 100%;
     position: absolute;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page-container {
@@ -27,6 +28,12 @@ body {
 /* ---------------------------------- General */
 
 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+}
+
+span {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #3c3c3c;
@@ -174,6 +181,7 @@ padding: 15px;
     height: 120px;
     right: 0px;
     background-color: transparent;
+    z-index: 1;
 }
 
 .navbar-dropdown {
@@ -235,13 +243,14 @@ section {
 
 .section-content {
     background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     display: inline-block;
     position: relative;
     margin: 0;
     padding: 5px;
     border: 1px solid #fafafa;
-    min-height: 40vh;
+    min-height: 35vh;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -335,6 +344,10 @@ section {
     font-family: 'Roboto', sans-serif;
 }
 
+.section-content-shop {
+    min-height: 10vh;
+}
+
 .shop-text {
     margin: 0;
     font-size: 0.9em;
@@ -370,7 +383,11 @@ section {
 /* ---------------------------------- Section - Blog */
 
 .blog-container {
-    background-color: #fafafa;
+    background-color: #fafafa;}
+
+.section-content-blog {
+    min-height: 30vh;
+    text-align: left;
 }
 
 .blog-image img {
@@ -378,6 +395,10 @@ section {
     width: 100%;
     object-fit: cover;
     object-position: 0% 0%;
+}
+
+.table thead th {
+    border-bottom: 1px;
 }
 
 @media (min-width: 577px) {
@@ -396,6 +417,10 @@ section {
         object-fit: cover;
         object-position: 0% 0%;
     }
+    
+    .blog-container {
+        text-align: -webkit-center;
+    }
 }
 
 .posted-tag {
@@ -403,17 +428,13 @@ section {
     margin-bottom: 0;
 }
 
+
 /* ---------------------------------- Section - Contact */
-
-
-/*
-.contact-container {
-    background-color: #fafafa;
+ 
+.section-content-contact {
     min-height: 40vh;
-} 
-
-*/
-
+}
+ 
 form > .form-group {
     margin-bottom: 0;
     padding: 3px;
@@ -427,6 +448,10 @@ form > .form-group {
 .contact-text h5 {
     padding-left: 6px;
     font-weight: 400;
+}
+
+.contact-text {
+    width: 100%;
 }
 
 .contact-text > p {
@@ -474,6 +499,11 @@ footer {
 a:hover {
     text-decoration: none;
     color: #b3b3b3;
+    cursor: default;
+}
+
+.btn-info:hover {
+    cursor: default;
 }
 
 .social-icon:hover {
