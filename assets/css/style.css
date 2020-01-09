@@ -33,6 +33,7 @@ a {
     color: #3c3c3c;
 }
 
+p,
 span {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -495,6 +496,10 @@ footer {
 } 
 
 /* ---------------------------------- Hover */
+
+.nav-navlink:hover {
+    color: #b3b3b3;    
+}
 
 a:hover {
     text-decoration: none;
