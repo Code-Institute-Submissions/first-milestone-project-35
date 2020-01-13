@@ -520,3 +520,6 @@ a:hover {
     color: #b3b3b3;
 }
 
+.btn:hover {
+    cursor: default;
+}
