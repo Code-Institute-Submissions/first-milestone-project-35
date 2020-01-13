@@ -25,10 +25,11 @@ You can see my mockups here, divided by device:
 [Desktop](https://www.figma.com/file/Rs1JPq8VtGmXcZ8g5SUKJRJr/First-milestone-project?node-id=6%3A121).
 
 ## Features
+------
 Implemented features, and ideas for additional features.
 ### Existing Features
 - Responsive design - Mobile first application
-- Documentation - ReadMe.md and Mockups
+- Documentation - README.md and Mockups
 - HTML and CSS based development
 - Bootstrap and BootstrapCDN - HTML, CSS frameworks and JS-based design templates
     - Layout - Containers and grid system
@@ -47,6 +48,7 @@ Implemented features, and ideas for additional features.
 - JavaScript - For better UX
 
 ## Technologies used
+------
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - Used for the strucure of the page
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -79,6 +81,7 @@ Implemented features, and ideas for additional features.
     - For added effects and nice design
 
 ## Testing
+------
 Since this is a simple landing page, the site has gone through manual testing. And after that it has had the code validated.
 ### First Test - Manual testing in Chrome Dev Tools
 Using Dev Tools, checking booth responsiveness, navigation and links. One screen size at a time.
@@ -105,37 +108,49 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
     - Pasted the complete CSS code in the "Validate by direct input"-section. No problems found
 
 ## Deplyment
+------
+The host for this site is [GitHub Pages](https://matsceder.github.io/first-milestone-project/).  
+These following steps were made to create and set up the repository:
+- Created a new repository at GitHub, including an index.html and a README.md-file.
+- In the terminal, make sure to add, commit and push your project the repository.
+- In the repository at GitHub, go to settings and scroll down to GitHub Pages.
+- Choose the desired branch as your source(I used the master branch). 
+- Use the provided link for your index page. And here you can also provide a custom domain name.
+These stes were then followed to deploy the site:
+- Go to [GitHub Pages](https://pages.github.com/) and install GitHub Desktop(Instructions for deployment are also provided on this site)
+- Go to the repository and choose "Clone or download".
+- In GitHub Desktop, select your repository and push "Publish".
+- The project should now be online and ready to visit at "*username*.github.io.
+
+From here on, changes that are made in the master branch will appear on the site as soon as they are pushed.
+Just update the browser after your work is pushed, sometimes it might take a little while for the changes to show.
+This gives you the option to keep making changes and develope the site under different branches. They can later be merged or switched from the master branch to a new desired one.
+I've been running the code locally using GitPod Online and serving it through port 8000, by typinig "python3 -m http.server" in the terminal.
 
 ## Credits
-
+------
 ### Content
+The information I've needed to complete this site, and code snippets used and modify has been from the following sites:
+- [Bootstrap](https://getbootstrap.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+- [Alligator](https://alligator.io/css/cropping-images-object-fit/)
+- [CSSmatic](https://cssmatic.com/)
+- [W3School](https://www.w3schools.com/)
+- [stackoverflow](https://stackoverflow.com/)
 
 ### Media
+Images for the page borrowed from:
+- [Ulla Ceder](https://www.instagram.com/ullabrittceder_/?hl=sv)
+- [Aftonbladet](https://www.aftonbladet.se/resa/a/Kv40bo/har-ar-sveriges-basta-julmarknader)
+- [Kryssning Polen](https://kryssningpolen.se/julmarknad-i-gdansk-2019/)
 
 ### Acknowledgements
+For inspiration and help to make this page I'd like to thank the following:
+- Seun Owonikoko @seun_mentor
+- Code Institute
+- Mark McGann
+- Ulla Ceder
 
 
 
-
-
-sources and credits to
-
-Seun
-Code Institute
-Bootstrap
-W3School
-Font Awesome
-stackoverflow
-cssmatic
-My mom - Ulla Ceder and her instagram, for picure sources
-http://ami.responsivedesign.is/#
-
-https://alligator.io/css/cropping-images-object-fit/
-https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
-
-market picures from 
-https://kryssningpolen.se/julmarknad-i-gdansk-2019/
-https://www.aftonbladet.se/resa/a/Kv40bo/har-ar-sveriges-basta-julmarknader
-
-
-
+ 
