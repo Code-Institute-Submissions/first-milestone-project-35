@@ -6,7 +6,6 @@ Hosts: [GitHub Pages](https://matsceder.github.io/first-milestone-project/index.
 Repository: [GitHub](https://github.com/matsceder/first-milestone-project)
 
 ## UX
-------
 ![Display of responsiveness in different formats](documentation/responsive.png)
 
 ### User Stories
@@ -25,7 +24,7 @@ You can see my mockups here, divided by device:
 [Desktop](https://www.figma.com/file/Rs1JPq8VtGmXcZ8g5SUKJRJr/First-milestone-project?node-id=6%3A121).
 
 ## Features
-------
+
 Implemented features, and ideas for additional features.
 ### Existing Features
 - Responsive design - Mobile first application
@@ -48,7 +47,7 @@ Implemented features, and ideas for additional features.
 - JavaScript - For better UX
 
 ## Technologies used
-------
+
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - Used for the strucure of the page
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -81,7 +80,7 @@ Implemented features, and ideas for additional features.
     - For added effects and nice design
 
 ## Testing
-------
+
 Since this is a simple landing page, the site has gone through manual testing. And after that it has had the code validated.
 ### First Test - Manual testing in Chrome Dev Tools
 Using Dev Tools, checking booth responsiveness, navigation and links. One screen size at a time.
@@ -108,7 +107,7 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
     - Pasted the complete CSS code in the "Validate by direct input"-section. No problems found
 
 ## Deplyment
-------
+
 The host for this site is [GitHub Pages](https://matsceder.github.io/first-milestone-project/).  
 These following steps were made to create and set up the repository:
 - Created a new repository at GitHub, including an index.html and a README.md-file.
@@ -128,7 +127,7 @@ This gives you the option to keep making changes and develope the site under dif
 I've been running the code locally using GitPod Online and serving it through port 8000, by typinig "python3 -m http.server" in the terminal.
 
 ## Credits
-------
+
 ### Content
 The information I've needed to complete this site, and code snippets used and modify has been from the following sites:
 - [Bootstrap](https://getbootstrap.com/)
@@ -151,6 +150,3 @@ For inspiration and help to make this page I'd like to thank the following:
 - Mark McGann
 - Ulla Ceder
 
-
-
- 
