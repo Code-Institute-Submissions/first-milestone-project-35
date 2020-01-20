@@ -23,8 +23,7 @@ body {
 .footer-container {
     background-color: #fafafa;
 }
-
-
+ 
 /* ---------------------------------- General */
 
 a {
@@ -72,8 +71,7 @@ td {
     font-family: 'Roboto', sans-serif;
     color: #3c3c3c;
 }
-
-
+ 
 /* ---------------------------------- Heading */
 
 header {
@@ -114,8 +112,7 @@ div .heading {
         text-align: center;
     }
 }
-
-
+ 
 /* ---------------------------------- Navbar */
 
 .menu-wide {
@@ -256,11 +253,7 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
-
-.section-content h4 {
-    font-weight: 300;
-}
-
+ 
 @media (min-width: 576px) {
     .section-header {
         text-align: center;
@@ -321,8 +314,12 @@ section {
     align-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
+.welcome-span {
+    letter-spacing: .03em;
+}
 
 /* ---------------------------------- Section - Gallery */
 
@@ -385,11 +382,14 @@ section {
 /* ---------------------------------- Section - Blog */
 
 .blog-container {
-    background-color: #fafafa;}
+    background-color: #fafafa;
+    padding: 10px;
+}
 
 .section-content-blog {
     min-height: 30vh;
     text-align: left;
+    letter-spacing: .03em;
 }
 
 .blog-image img {
@@ -397,6 +397,7 @@ section {
     width: 100%;
     object-fit: cover;
     object-position: 0% 0%;
+    padding: 5px 0px;
 }
 
 .table thead th {
@@ -427,7 +428,7 @@ section {
 
 .posted-tag {
     font-size: 0.7em;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 
@@ -458,6 +459,12 @@ form > .form-group {
 
 .contact-text > p {
     margin: 2px 3px;
+}
+
+.contact-btn {
+    color: #fafafa;
+    background-color: #964143;
+    width: 150px;
 }
 
 /* ---------------------------------- Footer */
@@ -522,4 +529,9 @@ a:hover {
 
 .btn:hover {
     cursor: default;
+}
+
+.contact-btn:hover {
+    background-color: #621517;
+    color: #fafafa;
 }

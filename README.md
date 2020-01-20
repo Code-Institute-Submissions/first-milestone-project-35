@@ -106,7 +106,7 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 - Testing CSS
     - Pasted the complete CSS code in the "Validate by direct input"-section. No problems found
 
-## Deplyment
+## Deployment
 
 The host for this site is [GitHub Pages](https://matsceder.github.io/first-milestone-project/).  
 These following steps were made to create and set up the repository:
