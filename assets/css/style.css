@@ -317,8 +317,9 @@ section {
     padding: 10px;
 }
 
-.welcome-span {
+.welcome-paragraph {
     letter-spacing: .03em;
+    text-align: justify;
 }
 
 /* ---------------------------------- Section - Gallery */
@@ -384,6 +385,10 @@ section {
 .blog-container {
     background-color: #fafafa;
     padding: 10px;
+}
+
+.blog-paragraph {
+        text-align: justify;
 }
 
 .section-content-blog {
